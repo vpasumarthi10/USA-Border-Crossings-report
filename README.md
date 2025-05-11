@@ -1,4 +1,4 @@
-# 🇺🇸 USA Border Crossings Report (2015–2025 & 2025)
+# USA Border Crossings Report (2015–2025 & 2025)
 
 This repository contains two Power BI reports analyzing border crossing data into the United States. The first report focuses exclusively on the year 2025, and the second provides a broader view of border activity from 2015 to 2025. These reports visualize key patterns in traffic volume, border activity, port usage, and state-level statistics.
 
