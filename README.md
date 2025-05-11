@@ -1,50 +1,75 @@
-# USA Border Crossings Report (2015–2025)
+# 🇺🇸 USA Border Crossings Report (2015–2025 & 2025)
 
-This Power BI dashboard analyzes U.S. border crossings data from 1996 to 2025, providing insights into traffic types, port activity, state-level distribution, and cross-border volume trends.
-
-## 📊 Report Highlights
-
-- **Years Covered**: 2015-2025 (with focus on the most recent decade)
-- **Total Crossings**: Over 82 million
-- **Number of Ports Analyzed**: 108
-- **Top Ports**: San Ysidro, Laredo, El Paso
-- **Traffic Types**: Personal Vehicles, Pedestrians, Trucks, Buses, Rail, etc.
-- **Borders**: US-Mexico and US-Canada
-
-## 🗺️ Visualizations Included
-
-- Total Crossings by Year
-- Crossings by Border (Pie Chart)
-- Map of Crossings by Volume
-- Crossings by Traffic Type (Bar Chart)
-- Top Ports by Border Crossings (Bar Chart)
-- Total Crossings by State (Bar Chart)
-- Value Breakdown by Border and Measure (Stacked Column)
-- Detailed Crossing Data Table
-
-## 📁 Files in This Repository
-
-- `Border Crossings report.pbix` – Full Power BI report file
-- `Border Crossings 2025.pdf` – Exported dashboard view (PDF format)
-- `README.md` – This documentation
-
-## 🔧 Tools Used
-
-- **Power BI Desktop**
-- **Microsoft Excel / Power Query**
-- **Data Source**: U.S. Border Crossing Entry Data (Bureau of Transportation Statistics)
-
-## ✅ How to Use
-
-1. Download the `.pbix` file
-2. Open in Power BI Desktop
-3. Explore interactive visuals and slicers (e.g., by year, port, state)
+This repository contains two Power BI reports analyzing border crossing data into the United States. The first report focuses exclusively on the year 2025, and the second provides a broader view of border activity from 2015 to 2025. These reports visualize key patterns in traffic volume, border activity, port usage, and state-level statistics.
 
 ---
 
-### 📌 Author
+## 📁 Included Reports
 
-**Venkat Pasumarthi**  
-Data Analyst | Power BI Analyst  
+### 1. **2025 Border Crossings Report**
+- 📄 `Border Crossings 2025.pdf`
+- 📊 `Border Crossings report.pbix`
+
+**Highlights:**
+- Total crossings in 2025: **82.85 million**
+- Top Ports: San Ysidro, Laredo, El Paso
+- Dominant States: Texas, California, Arizona
+- Border distribution: US-Mexico vs. US-Canada
+- Traffic Types: Personal Vehicles, Pedestrians, Trucks
+
+---
+
+### 2. **Decade Summary Report (2015–2025)**
+- 📄 `Border Crossings report.pdf`
+
+**Highlights:**
+- Total crossings from 2015 to 2025: **3.387 billion**
+- Total ports analyzed: **114**
+- Top Ports: San Ysidro (0.47bn), El Paso, Laredo
+- Key States: Texas, California, Arizona
+- Traffic breakdown and trends by border and mode of transport
+
+---
+
+## 📊 Visualizations
+
+- Yearly Filtered Crossings
+- Map View by Volume
+- Crossings by Traffic Type
+- Top Ports by Crossing Volume
+- Crossings by U.S. State
+- Detailed Port-Level Breakdown
+- Comparison by Border & Transport Type
+
+---
+
+## 📥 Data Source
+
+- **U.S. Border Crossing Entry Data**  
+  Data.gov- The Home of the U.S. Government's Open Data  
+[  [https://data.bts.gov](https://data.bts.gov)
+(https://catalog.data.gov/dataset/border-crossing-entry-data-683ae)
+---
+
+## 🛠 Tools Used
+
+- Power BI Desktop  
+- Power Query  
+- Data cleaning in Excel
+
+---
+
+## 👤 Author
+
+**Venkata Chirudeep Pasumarthi**  
+*Data Analyst | Power BI Developer*  
 GitHub: [@vpasumarthi10](https://github.com/vpasumarthi10)
+
+---
+
+## 📌 How to Use
+
+1. View the `.pdf` reports for a summary snapshot.
+2. Download the `.pbix` file to explore the interactive dashboard in Power BI.
+3. Use slicers and filters to drill down into specific years, ports, states, or traffic types.
 
